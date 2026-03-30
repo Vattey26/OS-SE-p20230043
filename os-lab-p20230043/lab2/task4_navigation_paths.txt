@@ -1,0 +1,38 @@
+=== Task 4: Navigation with Paths ===
+--- Absolute path to HR/policies ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/hr/policies
+leave_policy.txt
+remote_work.txt
+--- Up to hr/ ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/hr
+--- Relative path to onboarding/ ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/hr/onboarding
+checklist.txt
+welcome_guide.txt
+--- Sideways to engineering/frontend ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/engineering/frontend
+app_config.txt
+index.html
+styles.css
+v
+--- Up to two levels to techcorp/ ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp
+--- Absolute path to marketing/campaigns/ ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/marketing/campaigns
+q1_launch.txt
+social_media.txt
+--- cd - (back to previous directory) ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp
+--- Challenge Navigation ---
+--- 8a: Relative path to engineering/backend ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/engineering/backend
+--- 8b: Via .. shortcuts to marketing/assets ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/marketing/assets
+--- 8c: Absolute path to /usr/bin ---
+/usr/bin
+--- 8d: cd - back to previous directory ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/marketing/assets
+--- 8e: Navigate to hr/onboarding ---
+/home/lui/os-se-p20230043/os-lab-p20230043/lab2/techcorp/hr/onboarding
+checklist.txt
+welcome_guide.txt

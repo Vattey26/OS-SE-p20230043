@@ -1,0 +1,270 @@
+/
+total 2832
+drwxr-xr-x  29 root root    4096 Mar 30 23:01 .
+drwxr-xr-x  29 root root    4096 Mar 30 23:01 ..
+lrwxrwxrwx   1 root root       7 Jan  7  2025 bin -> usr/bin
+drwxr-xr-x   2 root root    4096 Apr 18  2022 boot
+drwxr-xr-x  15 root root    3860 Mar 30 23:01 dev
+drwxr-xr-x 109 root root    4096 Mar 30 23:12 etc
+drwxr-xr-x   3 root root    4096 Mar 17 15:42 home
+-rwxr-xr-x   1 root root 2781568 Dec 12 08:58 init
+lrwxrwxrwx   1 root root       7 Jan  7  2025 lib -> usr/lib
+lrwxrwxrwx   1 root root       9 Jan  7  2025 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root       9 Jan  7  2025 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root      10 Jan  7  2025 libx32 -> usr/libx32
+drwx------   2 root root   16384 Mar 17 15:42 lost+found
+drwxr-xr-x   2 root root    4096 Jan  7  2025 media
+drwxr-xr-x   6 root root    4096 Mar 17 15:42 mnt
+drwxr-xr-x   3 root root    4096 Mar 17 15:57 opt
+dr-xr-xr-x 313 root root       0 Mar 30 23:01 proc
+drwx------   4 root root    4096 Mar 30 23:02 root
+drwxr-xr-x  23 root root     700 Mar 30 23:22 run
+lrwxrwxrwx   1 root root       8 Jan  7  2025 sbin -> usr/sbin
+drwxr-xr-x   2 root root    4096 Mar 17 15:42 snap
+drwxr-xr-x   2 root root    4096 Jan  7  2025 srv
+dr-xr-xr-x  13 root root       0 Mar 30 23:01 sys
+drwxrwxrwt   7 root root    4096 Mar 30 23:46 tmp
+drwxr-xr-x  14 root root    4096 Jan  7  2025 usr
+drwxr-xr-x  13 root root    4096 Jan  7  2025 var
+drwx------   2 root root    4096 Mar 24 00:07 wslECnaPf
+drwx------   2 root root    4096 Mar 19 09:33 wslFAPeDh
+drwx------   2 root root    4096 Mar 24 00:07 wslfelJPf
+drwx------   2 root root    4096 Mar 19 09:33 wslfiEaFi
+drwx------   2 root root    4096 Mar 24 00:07 wslGbHEjb
+drwx------   2 root root    4096 Mar 19 09:33 wslmAnNFi
+drwx------   2 root root    4096 Mar 24 00:07 wslMdgePf
+drwx------   2 root root    4096 Mar 24 00:07 wslNBlmNf
+drwx------   2 root root    4096 Mar 19 09:33 wslnEHKFi
+drwx------   2 root root    4096 Mar 19 09:33 wslniBGEi
+--- /etc ---
+/etc
+adduser.conf
+alternatives
+apache2
+apparmor
+apparmor.d
+apport
+apt
+avahi
+bash.bashrc
+bash_completion
+bash_completion.d
+bindresvport.blacklist
+binfmt.d
+byobu
+ca-certificates
+ca-certificates.conf
+ca-certificates.conf.dpkg-old
+cloud
+console-setup
+cron.d
+cron.daily
+cron.hourly
+cron.monthly
+crontab
+cron.weekly
+dbus-1
+dconf
+debconf.conf
+debian_version
+default
+deluser.conf
+depmod.d
+dhcp
+dictionaries-common
+dpkg
+e2scrub.conf
+emacs
+environment
+environment.d
+ethertypes
+fonts
+fstab
+fuse.conf
+gai.conf
+geoclue
+ghostscript
+glvnd
+groff
+group
+group-
+gshadow
+gshadow-
+gss
+gtk-3.0
+hdparm.conf
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+ifplugd
+init.d
+inputrc
+iproute2
+issue
+issue.net
+java-11-openjdk
+kernel
+landscape
+ldap
+ld.so.cache
+ld.so.conf
+ld.so.conf.d
+legal
+libaudit.conf
+libibverbs.d
+libnl-3
+libpaper.d
+lighttpd
+locale.alias
+locale.gen
+localtime
+logcheck
+login.defs
+logrotate.conf
+logrotate.d
+lsb-release
+machine-id
+magic
+magic.mime
+mailcap
+mailcap.order
+manpath.config
+matplotlibrc
+mercurial
+mime.types
+mke2fs.conf
+ModemManager
+modprobe.d
+modules
+modules-load.d
+mtab
+mysql
+nanorc
+netconfig
+netplan
+network
+networkd-dispatcher
+networks
+newt
+nftables.conf
+nsswitch.conf
+ODBCDataSources
+odbc.ini
+odbcinst.ini
+openal
+openmpi
+openni
+openni2
+opt
+os-release
+PackageKit
+pam.conf
+pam.d
+papersize
+passwd
+passwd-
+perl
+pm
+polkit-1
+profile
+profile.d
+protocols
+pulse
+python3
+python3.10
+rc0.d
+rc1.d
+rc2.d
+rc3.d
+rc4.d
+rc5.d
+rc6.d
+rcS.d
+resolv.conf
+rmt
+rpc
+rsyslog.conf
+rsyslog.d
+screenrc
+security
+selinux
+sensors3.conf
+sensors.d
+services
+sgml
+shadow
+shadow-
+shells
+skel
+ssh
+ssl
+subgid
+subgid-
+subuid
+subuid-
+subversion
+sudo.conf
+sudoers
+sudoers.d
+sudo_logsrvd.conf
+sysctl.conf
+sysctl.d
+systemd
+terminfo
+timezone
+tmpfiles.d
+ubuntu-advantage
+ucf.conf
+udev
+ufw
+update-manager
+update-motd.d
+usb_modeswitch.conf
+usb_modeswitch.d
+vdpau_wrapper.cfg
+vim
+vtrgb
+vulkan
+wgetrc
+wpa_supplicant
+wsl.conf
+X11
+xattr.conf
+xdg
+xml
+zsh_command_not_found
+--- /var --- 
+/var
+backups
+cache
+crash
+lib
+local
+lock
+log
+mail
+opt
+run
+snap
+spool
+tmp
+--- /home ---
+/home
+total 12
+drwxr-xr-x  3 root root 4096 Mar 17 15:42 .
+drwxr-xr-x 29 root root 4096 Mar 30 23:01 ..
+drwxr-x--- 12 lui  lui  4096 Mar 24 00:36 lui
+--- /tmp ---
+/tmp
+total 24
+drwxrwxrwt  7 root root 4096 Mar 30 23:46 .
+drwxr-xr-x 29 root root 4096 Mar 30 23:01 ..
+drwx------  2 root root 4096 Mar 30 23:01 snap-private-tmp
+drwx------  3 root root 4096 Mar 30 23:01 systemd-private-8646cf18f15d42f7959b142668836402-systemd-logind.service-6mq7Xj
+drwx------  3 root root 4096 Mar 30 23:11 systemd-private-8646cf18f15d42f7959b142668836402-systemd-resolved.service-GoSTXr
+drwx------  3 root root 4096 Mar 30 23:12 systemd-private-8646cf18f15d42f7959b142668836402-systemd-timesyncd.service-XtYnVf
+drwxrwxrwx  2 root root   60 Mar 30 23:01 .X11-unix
+--- Home (~) ---
+/home/lui

@@ -1,0 +1,61 @@
+total 92
+drwxr-x--- 12 lui  lui   4096 Mar 24 00:36 .
+drwxr-xr-x  3 root root  4096 Mar 17 15:42 ..
+-rw-------  1 lui  lui  10034 Mar 24 21:21 .bash_history
+-rw-r--r--  1 lui  lui    220 Mar 17 15:42 .bash_logout
+-rw-r--r--  1 lui  lui   4126 Mar 20 18:07 .bashrc
+drwx------  2 lui  lui   4096 Mar 17 15:42 .cache
+drwx------  3 lui  lui   4096 Mar 20 17:45 .config
+drwxr-xr-x  6 lui  lui   4096 Mar 17 18:26 DClab_ws
+drwxr--r--  5 lui  lui   4096 Mar 20 17:45 .gazebo
+-rw-r--r--  1 lui  lui     85 Mar 19 15:58 .gitconfig
+drwxr--r--  2 lui  lui   4096 Mar 20 17:41 .ignition
+drwxr-xr-x  2 lui  lui   4096 Mar 20 17:38 .landscape
+-rw-------  1 lui  lui     20 Mar 17 16:15 .lesshst
+-rw-r--r--  1 lui  lui      0 Mar 30 23:01 .motd_shown
+drwxr-xr-x  5 lui  lui   4096 Mar 19 15:57 os-se-p20230043
+-rw-r--r--  1 lui  lui    807 Mar 17 15:42 .profile
+drwxr-xr-x  3 lui  lui   4096 Mar 17 18:40 .ros
+drwxr-xr-x  2 lui  lui   4096 Mar 20 17:41 .sdformat
+drwx------  2 lui  lui   4096 Mar 30 23:08 .ssh
+-rw-r--r--  1 lui  lui      0 Mar 17 15:47 .sudo_as_admin_successful
+-rw-r--r--  1 lui  lui     90 Mar 24 00:34 task5_multitasking.txt
+-rw-r--r--  1 lui  lui      8 Mar 24 00:36 task6_virtualization_check.txt
+--- Root directory (/) ---
+/
+bin
+boot
+dev
+etc
+home
+init
+lib
+lib32
+lib64
+libx32
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+srv
+sys
+tmp
+usr
+var
+wslECnaPf
+wslFAPeDh
+wslfelJPf
+wslfiEaFi
+wslGbHEjb
+wslmAnNFi
+wslMdgePf
+wslNBlmNf
+wslnEHKFi
+wslniBGEi
+--- Back to Home ---
+/home/lui

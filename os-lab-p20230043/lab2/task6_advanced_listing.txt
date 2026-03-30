@@ -1,0 +1,245 @@
+=== Task 6: Advanced Listing & Directory Audit ===
+--- Recursive Listing (ls -R) ---
+techcorp:
+engineering
+hr
+marketing
+
+techcorp/engineering:
+backend
+devops
+frontend
+
+techcorp/engineering/backend:
+app.js
+database.sql
+pipeline_backup.txt
+server_config.txt
+
+techcorp/engineering/devops:
+docker-compose.yml
+Dockerfile
+pipeline.txt
+security_audit.txt
+server_notice.txt
+
+techcorp/engineering/frontend:
+frontend_config.txt
+index.html
+styles.css
+v
+
+techcorp/hr:
+onboarding
+policies
+
+techcorp/hr/onboarding:
+checklist.txt
+handbook.txt
+leave_policy.txt
+welcome_guide.txt
+
+techcorp/hr/policies:
+leave_policy.txt
+remote_work.txt
+
+techcorp/marketing:
+assets
+campaigns
+
+techcorp/marketing/assets:
+banner.jpg
+brochure.pdf
+logo_brief.txt
+logo.png
+task3_directory_structure.txt
+
+techcorp/marketing/campaigns:
+q1_2026_launch.txt
+social_media.txt
+
+--- Sort by Size: engineering/ (ls -lS) ---
+total 8
+-rw-r--r-- 1 lui lui 39 Mar 31 00:03 v
+-rw-r--r-- 1 lui lui 26 Mar 30 23:55 frontend_config.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 index.html
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 styles.css
+total 8
+-rw-r--r-- 1 lui lui 29 Mar 31 00:22 pipeline_backup.txt
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 server_config.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 app.js
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 database.sql
+total 12
+-rw-r--r-- 1 lui lui 48 Mar 31 00:14 server_notice.txt
+-rw-r--r-- 1 lui lui 34 Mar 31 00:22 security_audit.txt
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 pipeline.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 docker-compose.yml
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 Dockerfile
+
+--- Sort by Time: techcorp/ (ls -lt) ---
+total 8
+-rw-r--r-- 1 lui lui 32 Mar 30 23:54 remote_work.txt
+-rw-r--r-- 1 lui lui 39 Mar 30 23:54 leave_policy.txt
+total 8
+-rw-r--r-- 1 lui lui 32 Mar 30 23:54 remote_work.txt
+-rw-r--r-- 1 lui lui 39 Mar 30 23:54 leave_policy.txt
+total 8
+-rw-r--r-- 1 lui lui 35 Mar 30 23:56 social_media.txt
+-rw-r--r-- 1 lui lui 32 Mar 30 23:56 q1_2026_launch.txt
+
+--- Human-Readable (ls -lh) ---
+total 8.0K
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 banner.jpg
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 brochure.pdf
+-rw-r--r-- 1 lui lui 22 Mar 31 00:14 logo_brief.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 logo.png
+-rw-r--r-- 1 lui lui 54 Mar 30 23:56 task3_directory_structure.txt
+total 12K
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 docker-compose.yml
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 Dockerfile
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 pipeline.txt
+-rw-r--r-- 1 lui lui 34 Mar 31 00:22 security_audit.txt
+-rw-r--r-- 1 lui lui 48 Mar 31 00:14 server_notice.txt
+
+--- Reverse Sort by Size (ls -rlS) ---
+total 8
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 database.sql
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 app.js
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 server_config.txt
+-rw-r--r-- 1 lui lui 29 Mar 31 00:22 pipeline_backup.txt
+
+--- Reverse Sort by Time (ls -rlt) ---
+total 12
+-rw-r--r-- 1 lui lui 52 Mar 30 23:55 welcome_guide.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 checklist.txt
+-rw-r--r-- 1 lui lui 23 Mar 31 00:14 handbook.txt
+-rw-r--r-- 1 lui lui 39 Mar 31 00:17 leave_policy.txt
+
+--- Combined: Recursive + Human-Readable + Sort by Size (ls -lhRS) ---
+techcorp/:
+total 12K
+drwxr-xr-x 5 lui lui 4.0K Mar 30 23:54 engineering
+drwxr-xr-x 4 lui lui 4.0K Mar 30 23:54 hr
+drwxr-xr-x 4 lui lui 4.0K Mar 31 00:14 marketing
+
+techcorp/engineering:
+total 12K
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:22 backend
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:22 devops
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:23 frontend
+
+techcorp/engineering/backend:
+total 8.0K
+-rw-r--r-- 1 lui lui 29 Mar 31 00:22 pipeline_backup.txt
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 server_config.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 app.js
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 database.sql
+
+techcorp/engineering/devops:
+total 12K
+-rw-r--r-- 1 lui lui 48 Mar 31 00:14 server_notice.txt
+-rw-r--r-- 1 lui lui 34 Mar 31 00:22 security_audit.txt
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 pipeline.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 docker-compose.yml
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 Dockerfile
+
+techcorp/engineering/frontend:
+total 8.0K
+-rw-r--r-- 1 lui lui 39 Mar 31 00:03 v
+-rw-r--r-- 1 lui lui 26 Mar 30 23:55 frontend_config.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 index.html
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 styles.css
+
+techcorp/hr:
+total 8.0K
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:16 onboarding
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:22 policies
+
+techcorp/hr/onboarding:
+total 12K
+-rw-r--r-- 1 lui lui 52 Mar 30 23:55 welcome_guide.txt
+-rw-r--r-- 1 lui lui 39 Mar 31 00:17 leave_policy.txt
+-rw-r--r-- 1 lui lui 23 Mar 31 00:14 handbook.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 checklist.txt
+
+techcorp/hr/policies:
+total 8.0K
+-rw-r--r-- 1 lui lui 39 Mar 30 23:54 leave_policy.txt
+-rw-r--r-- 1 lui lui 32 Mar 30 23:54 remote_work.txt
+
+techcorp/marketing:
+total 8.0K
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:14 assets
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:23 campaigns
+
+techcorp/marketing/assets:
+total 8.0K
+-rw-r--r-- 1 lui lui 54 Mar 30 23:56 task3_directory_structure.txt
+-rw-r--r-- 1 lui lui 22 Mar 31 00:14 logo_brief.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 banner.jpg
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 brochure.pdf
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 logo.png
+
+techcorp/marketing/campaigns:
+total 8.0K
+-rw-r--r-- 1 lui lui 35 Mar 30 23:56 social_media.txt
+-rw-r--r-- 1 lui lui 32 Mar 30 23:56 q1_2026_launch.txt
+
+--- Challenge Investigation ---
+--- 6a: Most recently modified in hr/onboarding/ ---
+total 12
+-rw-r--r-- 1 lui lui 39 Mar 31 00:17 leave_policy.txt
+-rw-r--r-- 1 lui lui 23 Mar 31 00:14 handbook.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 checklist.txt
+-rw-r--r-- 1 lui lui 52 Mar 30 23:55 welcome_guide.txt
+--- 6b: Recursive human-readable listing of marketing/ ---
+techcorp/marketing/:
+total 8.0K
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:14 assets
+drwxr-xr-x 2 lui lui 4.0K Mar 31 00:23 campaigns
+
+techcorp/marketing/assets:
+total 8.0K
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 banner.jpg
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 brochure.pdf
+-rw-r--r-- 1 lui lui 22 Mar 31 00:14 logo_brief.txt
+-rw-r--r-- 1 lui lui  0 Mar 30 23:56 logo.png
+-rw-r--r-- 1 lui lui 54 Mar 30 23:56 task3_directory_structure.txt
+
+techcorp/marketing/campaigns:
+total 8.0K
+-rw-r--r-- 1 lui lui 32 Mar 30 23:56 q1_2026_launch.txt
+-rw-r--r-- 1 lui lui 35 Mar 30 23:56 social_media.txt
+--- 6c: Smallest files first in devops/ ---
+total 12
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 Dockerfile
+-rw-r--r-- 1 lui lui  0 Mar 30 23:55 docker-compose.yml
+-rw-r--r-- 1 lui lui 29 Mar 30 23:55 pipeline.txt
+-rw-r--r-- 1 lui lui 34 Mar 31 00:22 security_audit.txt
+-rw-r--r-- 1 lui lui 48 Mar 31 00:14 server_notice.txt
+--- 6d: Hidden files in home directory, sorted by size ---
+total 96K
+-rw-------  1 lui  lui  9.8K Mar 24 21:21 .bash_history
+-rw-r--r--  1 lui  lui  4.1K Mar 20 18:07 .bashrc
+drwxr-x--- 12 lui  lui  4.0K Mar 31 00:19 .
+drwxr-xr-x  3 root root 4.0K Mar 17 15:42 ..
+drwx------  2 lui  lui  4.0K Mar 17 15:42 .cache
+drwx------  3 lui  lui  4.0K Mar 20 17:45 .config
+drwxr-xr-x  6 lui  lui  4.0K Mar 17 18:26 DClab_ws
+drwxr--r--  5 lui  lui  4.0K Mar 20 17:45 .gazebo
+drwxr--r--  2 lui  lui  4.0K Mar 20 17:41 .ignition
+drwxr-xr-x  2 lui  lui  4.0K Mar 20 17:38 .landscape
+drwxr-xr-x  5 lui  lui  4.0K Mar 19 15:57 os-se-p20230043
+drwxr-xr-x  3 lui  lui  4.0K Mar 17 18:40 .ros
+drwxr-xr-x  2 lui  lui  4.0K Mar 20 17:41 .sdformat
+drwx------  2 lui  lui  4.0K Mar 30 23:08 .ssh
+-rw-r--r--  1 lui  lui   807 Mar 17 15:42 .profile
+-rw-r--r--  1 lui  lui   220 Mar 17 15:42 .bash_logout
+-rw-r--r--  1 lui  lui    90 Mar 24 00:34 task5_multitasking.txt
+-rw-r--r--  1 lui  lui    85 Mar 19 15:58 .gitconfig
+-rw-r--r--  1 lui  lui    52 Mar 31 00:19 os-se
+-rw-------  1 lui  lui    20 Mar 17 16:15 .lesshst
+-rw-r--r--  1 lui  lui     8 Mar 24 00:36 task6_virtualization_check.txt
+-rw-r--r--  1 lui  lui     0 Mar 30 23:01 .motd_shown
+-rw-r--r--  1 lui  lui     0 Mar 31 00:14 os-se-
+-rw-r--r--  1 lui  lui     0 Mar 17 15:47 .sudo_as_admin_successful
