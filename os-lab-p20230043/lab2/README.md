@@ -170,7 +170,7 @@ Given only the goal, chose the right `cd` method for each step independently.
 
 **Screenshot — Challenge Commands:**
 
-![Task 4 Challenge](images/Task_4_-_Challenge.png)
+![Task 4 Challenge](images/Task_4_Challenge.png)
 
 ---
 
@@ -205,7 +205,7 @@ Given only a description of the problem, figured out the correct commands indepe
 
 **Screenshot — Challenge Commands:**
 
-![Task 5 Challenge](images/Task_5_-_Challenge.png)
+![Task 5 Challenge](images/Task_5_Challenge.png)
 
 ---
 
@@ -241,7 +241,7 @@ Given only the investigative question, chose the right flag combination independ
 
 **Screenshot — Challenge Commands:**
 
-![Task 6 Challenge](images/Task_6_-_Challenge.png)
+![Task 6 Challenge](images/Task_6_Challenge.png)
 
 ---
 
